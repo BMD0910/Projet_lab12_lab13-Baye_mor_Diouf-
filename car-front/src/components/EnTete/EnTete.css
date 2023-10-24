@@ -1,0 +1,124 @@
+.tete{
+    width: 100%;
+    min-height: 30px;
+    height: max-content;
+    background-color: #2ad424;
+}
+
+
+.BarreDeHaut{
+    width: 100%;
+    min-height: 60px;
+    height: max-content;
+    background-color: #FFDB58;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;/*ici on a 10 colone*/
+    grid-template-rows: 60px ; 
+   
+}
+
+
+
+.BarreDeBas{
+    width: 100%;
+    min-height: 20px;
+    height: max-content;
+    background-color: #373305;
+    
+} 
+
+/* .accueil{
+  background-color: #FFDB58;
+  border: none;
+  color: #373305;
+  font-size: 25px;
+} */
+
+.search-bar {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 5px;
+    margin-inline-end: px;
+    margin-right: 20px;
+    grid-column: 18;
+  }
+  
+  .search-bar input {
+    max-width: 50%px;
+    flex: 1;
+    background-color: #373305b7;
+    border: none;
+    padding: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .search-bar button {
+    border: none;
+    background-color: #373305;
+    color: #FFDB58;
+    padding: 7px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* .menu-icon{
+    background-color: #FFDB58;
+    color: #373305;
+    border: none;
+    font-size: 25px; 
+  } */
+
+
+ .message-icon , .notification-icon ,.ParametreIcon ,.accueil , .menu-icon , .Deconnexion , .profile-icon {
+    background-color: #FFDB58;
+    color: #373305;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+
+  }
+  
+ /*----------LES ICONES DU BARRE DE HAUT ----------*/ 
+  .menu-icon{
+   
+  }  
+  
+  .accueil {
+    grid-column: 10;
+  }
+
+  .message-icon{
+    grid-column: 11;
+  }
+
+  .profile-icon {
+    grid-column: 12;
+  }
+
+  .notification-icon {
+    grid-column: 13;
+    vertical-align: sub;
+  }
+
+  .ParametreIcon{
+    grid-column: 19; 
+  }
+
+  .Deconnexion{
+    grid-column: 20; 
+  }
+
+
+  
+
+  .logoTete{
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+     grid-column: 1; 
+     margin-left: 10px;
+   }
